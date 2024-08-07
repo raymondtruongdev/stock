@@ -1,0 +1,47 @@
+curl 'https://finance.vietstock.vn/data/KQGDThongKeTuDoanhStockPaging' \
+  -H 'Accept: */*' \
+  -H 'Accept-Language: en-US,en;q=0.9,vi;q=0.8' \
+  -H 'Cache-Control: no-cache' \
+  -H 'Connection: keep-alive' \
+  -H 'Content-Type: application/x-www-form-urlencoded; charset=UTF-8' \
+  -H 'Cookie: language=vi-VN; ASP.NET_SessionId=zdukent1ibtmpcamg1j4cmyt; __RequestVerificationToken=OSXZKh2EfIg0nlmghBfPJs5e_mDlDjWG1cRchcd5bV38mUQjqaCeut38oTmdijEIHcZQvhv9M0uiX7pb7BC2_c6lGeoEcZzUrilUn71gMSQ1; Theme=Light; _gid=GA1.2.1066563771.1708359542; AnonymousNotification=; isShowLogin=true; vts_usr_lg=49F71C9A73C3B80136DB4E660286F86DCD8A4D0E2AD158687A9C4F90C9A27FF17C10796EEF4486A27C8A00C8401218AD6C6DA97BA7536D4BCD7067D5778F5DAC5D36EF2A670ED44C5FC60D7D99C7E199E1497F4CA16023A199B4E27D36EC9D7A80D6C9F4B17BE04990E24C3E2591BA220BEEA9FB571181D45A0BF2BBC31E53F5; vst_usr_lg_token=85evUmiQk02gCqKxEAMDNw==; _ga=GA1.2.239100682.1708359232; _ga_EXMM0DKVEX=GS1.1.1708402262.4.1.1708402576.60.0.0' \
+  -H 'Origin: https://finance.vietstock.vn' \
+  -H 'Pragma: no-cache' \
+  -H 'Referer: https://finance.vietstock.vn/ket-qua-giao-dich?tab=gd-td&exchange=1&code=509' \
+  -H 'Sec-Fetch-Dest: empty' \
+  -H 'Sec-Fetch-Mode: cors' \
+  -H 'Sec-Fetch-Site: same-origin' \
+  -H 'User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36' \
+  -H 'X-Requested-With: XMLHttpRequest' \
+  -H 'sec-ch-ua: "Not A(Brand";v="99", "Google Chrome";v="121", "Chromium";v="121"' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'sec-ch-ua-platform: "macOS"' \
+  --data-raw 'page=1&pageSize=10&catID=1&stockID=509&fromDate=2024-01-20&toDate=2024-02-20&__RequestVerificationToken=Rulu81B0LDPk6lqzF-j20P0_Cqpq5Tpolg9fCvphLDBVv8Dfoswe7U-dy2C39Yp0hjWSjPvfjQNj8cf6GdXzhIpj17hkfBMs5iYL1wrWlSPAgVwhURZTiuIMxfukAQB_0' \
+  --compressed
+
+
+
+
+curl 'https://finance.vietstock.vn/data/KQGDThongKeTuDoanhStockPaging' \
+  -H 'Accept: */*' \
+  -H 'Accept-Language: en-US,en;q=0.9' \
+  -H 'Connection: keep-alive' \
+  -H 'Content-Type: application/x-www-form-urlencoded; charset=UTF-8' \
+  -H 'Cookie: language=vi-VN; Theme=Light; AnonymousNotification=; ASP.NET_SessionId=rbpdsabfmpxjju2scwbitiry; __RequestVerificationToken=O0Uk2pTVoEg5DxVMundTu5uWXL2YA7LXiK7wTocEd_Pfcv92CmdVLItv6HUGtpawNfmKMV4haUN6wCs-QS4zncnxYTTbzUNbRHcYafvXnyc1; _cc_id=6e3f5838398c8f9fb73dec0c2a1c112b; panoramaId_expiry=1709982143410; panoramaId=76a8b16b238d6997600460e2280e16d539388798c4a091210f74569b90675a7b; panoramaIdType=panoIndiv; FCNEC=%5B%5B%22AKsRol8ex8VU6n2FMJbmkZhKIIf0euYfHpINRIZfd-UaFsv3hkfvtGyi0FWCHlCOHxyGx2qCz21FBEmlAVjc87Ubvd1EQU5nEwDWDAxHcCM_6yaR531BdenldbqguAeMWZNsiVXNp-3IOmDXI93uy7hkIGmzTss3xg%3D%3D%22%5D%5D; _gid=GA1.2.37490525.1709698581; vts_usr_lg=404EB984604E0111B17D9DB06EE1E688CCFEA5B593CA2D7BA8B6A66B05FAFDFED407034DF1EC46E03136767751E4C2BEB31B1A1FA69D3339CABED19E2668213ED844CDC570D8140E20859FFE4FEB49D98AAB3F19630E7B7960CC227BF7866093E86D64A525CB12B1A760FAF5E814CA52BFBCE14DF1C4542066A2D6C5D59CE430; vst_usr_lg_token=sTy33TCaB02/ALTx9HEHlw==; _ga=GA1.2.239100682.1708359232; _ga_EXMM0DKVEX=GS1.1.1709745188.14.1.1709746510.54.0.0' \
+  -H 'Origin: https://finance.vietstock.vn' \
+  -H 'Referer: https://finance.vietstock.vn/ket-qua-giao-dich?tab=gd-td&exchange=1&code=12698' \
+  -H 'Sec-Fetch-Dest: empty' \
+  -H 'Sec-Fetch-Mode: cors' \
+  -H 'Sec-Fetch-Site: same-origin' \
+  -H 'User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36' \
+  -H 'X-Requested-With: XMLHttpRequest' \
+  -H 'sec-ch-ua: "Chromium";v="122", "Not(A:Brand";v="24", "Google Chrome";v="122"' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'sec-ch-ua-platform: "macOS"' \
+  --data-raw 'page=1&pageSize=10&catID=1&stockID=12698&fromDate=2024-03-01&toDate=2024-03-07&__RequestVerificationToken=2xp7WOCGmeNjdu8_8Z2vK-Zleap7DAJpkGgwg5mEFqegD_HwY8hmejxXF5ENH4D-MlTDXiqfNcYnHlVm5npQ0hxQvx8Rt11ACt2J_kYYBqDLj0dxhvVIlM26HTE-Q0Ii0'
+
+
+
+  [[{"CloseIndex":1262.73,"PriorIndex":1269.98,"Change":-7.25,"PerChange":-0.57,"ChangeColor":"down","ChangeText":"giảm","TrDate":"\/Date(1709658000000)\/","TranNo":1525}],[{"TradingDate":"\/Date(1709658000000)\/","StockCode":"FTS","FinanceURL":"https://finance.vietstock.vn/FTS-ctcp-chung-khoan-fpt.htm","StockName":"CTCP Chứng khoán FPT","BuyVol":3600,"BuyVal":219.42000000000,"SellVol":0,"SellVal":0.00000000000,"KLBuy_Total":3600,"KLSell_Total":0,"GTBuy_Total":219.42000000000,"GTSell_Total":0.00000000000,"KLRong_Total":3600,"GTRong_Total":219.42000000000,"BuyPutVol":0,"BuyPutVal":0.00000000000,"SellPutVol":0,"SellPutVal":0.00000000000,"StockNameEn":null,"Row":1},{"TradingDate":"\/Date(1709571600000)\/","StockCode":"FTS","FinanceURL":"https://finance.vietstock.vn/FTS-ctcp-chung-khoan-fpt.htm","StockName":"CTCP Chứng khoán FPT","BuyVol":4400,"BuyVal":264.92000000000,"SellVol":0,"SellVal":0.00000000000,"KLBuy_Total":4400,"KLSell_Total":0,"GTBuy_Total":264.92000000000,"GTSell_Total":0.00000000000,"KLRong_Total":4400,"GTRong_Total":264.92000000000,"BuyPutVol":0,"BuyPutVal":0.00000000000,"SellPutVol":0,"SellPutVal":0.00000000000,"StockNameEn":null,"Row":2},{"TradingDate":"\/Date(1709485200000)\/","StockCode":"FTS","FinanceURL":"https://finance.vietstock.vn/FTS-ctcp-chung-khoan-fpt.htm","StockName":"CTCP Chứng khoán FPT","BuyVol":600,"BuyVal":34.64000000000,"SellVol":4800,"SellVal":278.40000000000,"KLBuy_Total":600,"KLSell_Total":4800,"GTBuy_Total":34.64000000000,"GTSell_Total":278.40000000000,"KLRong_Total":-4200,"GTRong_Total":-243.76000000000,"BuyPutVol":0,"BuyPutVal":0.00000000000,"SellPutVol":0,"SellPutVal":0.00000000000,"StockNameEn":null,"Row":3},{"TradingDate":"\/Date(1709226000000)\/","StockCode":"FTS","FinanceURL":"https://finance.vietstock.vn/FTS-ctcp-chung-khoan-fpt.htm","StockName":"CTCP Chứng khoán FPT","BuyVol":20000,"BuyVal":1162.15000000000,"SellVol":5600,"SellVal":325.48000000000,"KLBuy_Total":20000,"KLSell_Total":5600,"GTBuy_Total":1162.15000000000,"GTSell_Total":325.48000000000,"KLRong_Total":14400,"GTRong_Total":836.67000000000,"BuyPutVol":0,"BuyPutVal":0.00000000000,"SellPutVol":0,"SellPutVal":0.00000000000,"StockNameEn":null,"Row":4}],[1]]
+
+  

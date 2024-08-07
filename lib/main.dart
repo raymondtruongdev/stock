@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:stock_chart/logger_custom.dart';
+import 'package:stock_chart/model/vietstock.dart';
 import 'package:stock_chart/themes/light_mode.dart';
 
 void main() async {
@@ -98,7 +99,7 @@ class _MyHomePageState extends State<MyHomePage> {
               const SizedBox(height: 20.0),
               ElevatedButton(
                 onPressed: () {
-                  // Navigator.pop(context);
+                  VietStock.getGiaoDichKhoiNgoai();
                 },
                 child: const Text('Back'),
               ),
